@@ -1,0 +1,28 @@
+{
+  "name": "cli-toolkit-pro",
+  "version": "1.0.0",
+  "description": "Pro CLI toolkit bundle - CSV, JSON, image, PDF, text, file tools in one package. Premium features: batch scheduling, advanced automation, format pipelines.",
+  "main": "index.js",
+  "bin": {
+    "toolkit": "./bin/toolkit.js",
+    "toolkit-csv": "./bin/toolkit-csv.js",
+    "toolkit-json": "./bin/toolkit-json.js",
+    "toolkit-image": "./bin/toolkit-image.js",
+    "toolkit-pdf": "./bin/toolkit-pdf.js",
+    "toolkit-text": "./bin/toolkit-text.js",
+    "toolkit-file": "./bin/toolkit-file.js",
+    "toolkit-batch": "./bin/toolkit-batch.js"
+  },
+  "scripts": {
+    "postinstall": "node postinstall.js"
+  },
+  "keywords": ["cli", "toolkit", "csv", "json", "pdf", "image", "text", "file", "batch", "automation", "pro"],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
