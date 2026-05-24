@@ -1,0 +1,8 @@
+{
+  "name": "Daily Cleanup",
+  "tasks": [
+    { "name": "Organize Downloads", "tool": "file", "args": ["organize", "~/Downloads"] },
+    { "name": "Remove Duplicates", "tool": "file", "args": ["deduplicate", "~/Downloads", "--auto-delete"] },
+    { "name": "Optimize Images", "tool": "image", "args": ["compress", "~/Pictures/screenshots"] }
+  ]
+}
