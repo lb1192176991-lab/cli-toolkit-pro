@@ -1,0 +1,9 @@
+{
+  "name": "Monthly Report Pipeline",
+  "steps": [
+    { "name": "Merge monthly sales", "tool": "csv", "args": ["merge", "sales_*.csv", "-o", "merged.csv"] },
+    { "name": "Clean data", "tool": "csv", "args": ["clean", "merged.csv", "--deduplicate", "--remove-empty", "-o", "clean.csv"] },
+    { "name": "Analyze", "tool": "csv", "args": ["analyze", "clean.csv", "--stats", "--column", "revenue"] },
+    { "name": "Convert to JSON", "tool": "json", "args": ["convert", "clean.csv", "-o", "report.json"] }
+  ]
+}
