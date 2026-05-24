@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CLI Toolkit Pro - 开发者工具包</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+  .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+  h1 { font-size: 2.5em; text-align: center; margin-bottom: 10px; background: linear-gradient(135deg, #6366f1, #22c55e); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  .subtitle { text-align: center; color: #94a3b8; font-size: 1.1em; margin-bottom: 40px; }
+  
+  .hero { background: #1e293b; border-radius: 16px; padding: 40px; margin-bottom: 40px; border: 1px solid #334155; }
+  .hero h2 { font-size: 1.5em; margin-bottom: 15px; }
+  .hero p { color: #94a3b8; line-height: 1.7; margin-bottom: 20px; }
+  .hero code { background: #334155; padding: 2px 8px; border-radius: 4px; font-size: 0.9em; }
+  
+  .features { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 40px; }
+  .feature { background: #1e293b; border: 1px solid #334155; border-radius: 12px; padding: 24px; }
+  .feature h3 { color: #6366f1; margin-bottom: 8px; font-size: 1.1em; }
+  .feature p { color: #94a3b8; font-size: 0.9em; line-height: 1.5; }
+  
+  .pricing { background: linear-gradient(135deg, #1e293b, #0f172a); border: 1px solid #6366f1; border-radius: 16px; padding: 40px; text-align: center; margin-bottom: 40px; }
+  .pricing .price { font-size: 3em; font-weight: bold; color: #22c55e; margin: 10px 0; }
+  .pricing .price span { font-size: 0.4em; color: #94a3b8; }
+  .pricing ul { list-style: none; margin: 20px 0; text-align: left; max-width: 400px; margin: 20px auto; }
+  .pricing li { padding: 8px 0; color: #94a3b8; }
+  .pricing li:before { content: "✅ "; }
+  
+  .btn { display: inline-block; background: linear-gradient(135deg, #6366f1, #22c55e); color: white; padding: 14px 40px; border-radius: 8px; text-decoration: none; font-weight: bold; font-size: 1.1em; transition: transform 0.2s; }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-small { background: #334155; color: #e2e8f0; padding: 8px 20px; border-radius: 6px; text-decoration: none; font-size: 0.9em; }
+  
+  .tools-list { margin-bottom: 40px; }
+  .tools-list h2 { margin-bottom: 20px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #334155; }
+  th { color: #6366f1; font-weight: 600; }
+  td { color: #94a3b8; }
+  td:last-child { text-align: center; }
+  
+  .footer { text-align: center; color: #475569; padding: 40px 0; font-size: 0.9em; }
+  .footer a { color: #6366f1; text-decoration: none; }
+  
+  @media (max-width: 600px) {
+    .features { grid-template-columns: 1fr; }
+    h1 { font-size: 1.8em; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>CLI Toolkit Pro</h1>
+  <p class="subtitle">一个命令搞定 CSV、JSON、图片、PDF、文本、文件处理</p>
+  
+  <div class="hero">
+    <h2>🚀 One CLI to Rule Them All</h2>
+    <p>
+      还在记不同的命令行工具？<strong>CLI Toolkit Pro</strong> 把 8 个专业工具整合成一条命令。
+      <code>toolkit csv merge</code>、<code>toolkit json format</code>、<code>toolkit image compress</code> ——
+      统一风格、统一参数、统一体验。
+    </p>
+    <p>
+      支持<strong>管道编排</strong>和<strong>批量调度</strong>，一键完成复杂数据处理流程。
+    </p>
+    <a href="#buy" class="btn">立即购买 · $9.99</a>
+  </div>
+  
+  <div class="features">
+    <div class="feature">
+      <h3>🔄 管道编排</h3>
+      <p>JSON 配置文件定义多步骤流程，一步执行：提取 → 清洗 → 转换 → 导出</p>
+    </div>
+    <div class="feature">
+      <h3>📋 批量调度</h3>
+      <p>每天定时执行文件整理、图片优化、报告生成等重复任务</p>
+    </div>
+    <div class="feature">
+      <h3>🔧 统一 CLI</h3>
+      <p>所有工具同一风格：toolkit csv/json/image/pdf/text/file</p>
+    </div>
+    <div class="feature">
+      <h3>🚀 优先更新</h3>
+      <p>Pro 用户优先获得新功能、新工具、性能优化</p>
+    </div>
+  </div>
+  
+  <div class="pricing" id="buy">
+    <h2>💎 Professional License</h2>
+    <div class="price">$9.99 <span>/ 永久</span></div>
+    <p style="color:#94a3b8;">包含 6 个月免费更新和支持</p>
+    <ul>
+      <li>全部 8 个专业工具</li>
+      <li>统一命令行界面</li>
+      <li>管道编排引擎</li>
+      <li>批量任务调度器</li>
+      <li>JSON 配置文件支持</li>
+      <li>优先邮件支持</li>
+      <li>永久授权 · 无月费</li>
+    </ul>
+    <a href="https://www.tucaowall.vip/contact" class="btn">立即购买 · $9.99</a>
+  </div>
+  
+  <div class="tools-list">
+    <h2>📦 包含的工具</h2>
+    <table>
+      <tr><th>命令</th><th>功能</th><th>对应 npm 包</th></tr>
+      <tr><td><code>toolkit csv</code></td><td>CSV/Excel 合并、清洗、转换、分析</td><td>csv-toolkit-pro</td></tr>
+      <tr><td><code>toolkit json</code></td><td>JSON 格式化、校验、压缩、转换</td><td>json-tidy-pro</td></tr>
+      <tr><td><code>toolkit image</code></td><td>图片批量压缩、缩放、格式转换</td><td>batch-image-tool</td></tr>
+      <tr><td><code>toolkit text</code></td><td>文本批量查找替换、提取、统计</td><td>text-processor-pro</td></tr>
+      <tr><td><code>toolkit pdf</code></td><td>PDF 合并、拆分、文字提取</td><td>pdf-toolkit-pro</td></tr>
+      <tr><td><code>toolkit file</code></td><td>文件批量重命名、整理、去重</td><td>file-batch-toolkit</td></tr>
+      <tr><td><code>toolkit batch</code></td><td>批量任务调度</td><td>内置</td></tr>
+      <tr><td><code>toolkit pipeline</code></td><td>多步骤管道编排</td><td>内置</td></tr>
+    </table>
+  </div>
+  
+  <div class="footer">
+    <p>🌐 <a href="https://www.tucaowall.vip/">tucaowall.vip</a> · CLI Toolkit Pro © 2026</p>
+    <p style="margin-top:8px;">有问题？<a href="https://www.tucaowall.vip/contact">联系站长</a></p>
+  </div>
+</div>
+</body>
+</html>
