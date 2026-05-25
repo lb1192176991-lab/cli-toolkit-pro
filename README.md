@@ -1,18 +1,20 @@
-# CLI Toolkit Pro 🚀
+﻿# CLI Toolkit Pro
+[![Buy on Gumroad](https://img.shields.io/badge/Buy%20on-Gumroad-ff69b4?style=for-the-badge&logo=gumroad)](https://bobotempes.gumroad.com/l/nmcqjr)
+ 馃殌
 
-**One command to rule them all.** CSV, JSON, image, PDF, text, and file tools — unified CLI with batch scheduling and pipeline automation.
+**One command to rule them all.** CSV, JSON, image, PDF, text, and file tools 鈥?unified CLI with batch scheduling and pipeline automation.
 
 ## Why Pro?
 
 | Feature | Free Tools | CLI Toolkit Pro |
 |---------|-----------|-----------------|
-| Individual tools | ✅ | ✅ |
-| Unified CLI | ❌ | ✅ |
-| Batch scheduling | ❌ | ✅ |
-| Pipeline automation | ❌ | ✅ |
-| Config file support | ❌ | ✅ |
-| Premium support | ❌ | ✅ |
-| Regular updates | ❌ | ✅ |
+| Individual tools | 鉁?| 鉁?|
+| Unified CLI | 鉂?| 鉁?|
+| Batch scheduling | 鉂?| 鉁?|
+| Pipeline automation | 鉂?| 鉁?|
+| Config file support | 鉂?| 鉁?|
+| Premium support | 鉂?| 鉁?|
+| Regular updates | 鉂?| 鉁?|
 
 ## Installation
 
@@ -98,7 +100,7 @@ Commercial license. See [LICENSE.md](./LICENSE.md).
 
 ---
 
-🌐 **Visit us**: [https://www.tucaowall.vip/](https://www.tucaowall.vip/)
+馃寪 **Visit us**: [https://www.tucaowall.vip/](https://www.tucaowall.vip/)
 
 ## GitHub
 
@@ -107,4 +109,5 @@ Commercial license. See [LICENSE.md](./LICENSE.md).
 
 ---
 
-⭐ Star this repo if you find it useful!
+猸?Star this repo if you find it useful!
+
